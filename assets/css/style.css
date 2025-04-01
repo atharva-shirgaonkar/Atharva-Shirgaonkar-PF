@@ -1891,3 +1891,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* Change the color of the chevron-down icon */
+.info_more-btn ion-icon[name="chevron-down"] {
+  color: var(--orange-yellow-crayola); /* Replace with your desired color variable or hex code */
+}
