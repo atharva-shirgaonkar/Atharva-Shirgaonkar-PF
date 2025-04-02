@@ -25,8 +25,8 @@ export default async function handler(req, res) {
       await transporter.sendMail(mailOptions);
       res.status(200).json({ message: 'Form submitted successfully' });
     } catch (error) {
-      console.error(error);
-      res.status(500).json({ error: 'Error sending email' });
+      console.error('Error sending email:', error); // Log the error
+      res.status(500).json({ error: 'Error sending email', details: error.message });
     }
   } else {
     res.status(405).json({ error: 'Method not allowed' });
