@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+require('dotenv').config(); // For local testing
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
@@ -8,14 +9,14 @@ export default async function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'atharva10711@gmail.com', // Replace with your email
-        pass: 'Oppo', // Replace with your email password or app password
+        user: process.env.EMAIL_USER, // Use environment variable for email
+        pass: process.env.EMAIL_PASS, // Use environment variable for password
       },
     });
 
     const mailOptions = {
       from: email,
-      to: 'atharva10711@gmail.com', // Replace with your email
+      to: process.env.EMAIL_USER, // Send to your email
       subject: `New Contact Form Submission from ${fullname}`,
       text: `Name: ${fullname}\nEmail: ${email}\nMessage: ${message}`,
     };
