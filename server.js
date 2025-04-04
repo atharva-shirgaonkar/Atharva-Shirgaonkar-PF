@@ -1,41 +1,43 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+require('dotenv').config(); // Load environment variables from .env file
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000; // Use environment variable for PORT or default to 5000
 
 // Middleware to parse form data
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Route to handle form submission
-app.post('/submit-form', (req, res) => {
+app.post('/submit-form', async (req, res) => {
   const { fullname, email, message } = req.body;
 
-  // Send the data via email (using nodemailer)
+  // Configure nodemailer
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'your-email@gmail.com', // Replace with your email
-      pass: 'your-email-password', // Replace with your email password or app password
+      user: process.env.EMAIL_USER, // Use environment variable for email
+      pass: process.env.EMAIL_PASS, // Use environment variable for password
     },
   });
 
   const mailOptions = {
     from: email,
-    to: 'your-email@gmail.com', // Replace with your email
+    to: process.env.EMAIL_USER, // Send to your email
     subject: `New Contact Form Submission from ${fullname}`,
     text: `Name: ${fullname}\nEmail: ${email}\nMessage: ${message}`,
   };
 
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-      console.error(error);
-      return res.status(500).send('Error sending email');
-    }
+  try {
+    // Send the email
+    await transporter.sendMail(mailOptions);
     res.status(200).send('Form submitted successfully');
-  });
+  } catch (error) {
+    console.error('Error sending email:', error);
+    res.status(500).send('Error sending email');
+  }
 });
 
 // Start the server
