@@ -1912,3 +1912,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 .info_more-btn ion-icon[name="chevron-down"] {
   color: var(--orange-yellow-crayola); /* Replace with your desired color variable or hex code */
 }
+
+/* Keyframe animation for blinking */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply the blinking animation to the button */
+.blink {
+  animation: blink 1s infinite; /* 1-second duration, infinite loop */
+}
