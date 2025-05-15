@@ -1,3 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16">
-  <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm8.5 0v8H15V2zm0 9v3H15v-3zm-1-9H1v3h6.5zM1 14h6.5V6H1z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35.6312mm" height="34.7669mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4280 4176"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil5 {fill:url(#id0)}
+    .fil4 {fill:url(#id1)}
+    .fil6 {fill:url(#id2)}
+    .fil7 {fill:url(#id3)}
+    .fil1 {fill:url(#id4);fill-rule:nonzero}
+    .fil3 {fill:url(#id5);fill-rule:nonzero}
+    .fil8 {fill:url(#id6);fill-rule:nonzero}
+    .fil0 {fill:url(#id7);fill-opacity:0.149020}
+    .fil2 {fill:url(#id8);fill-opacity:0.149020}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="865.43" y1="3256.98" x2="396.308" y2="3441.06">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FFDB6E"/>
+   <stop offset="0.258824" style="stop-opacity:1; stop-color:#FFDB6E"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FFBC5E"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="1426.84" y1="3256.98" x2="3588.97" y2="3441.06">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="2830.21" y1="3620.47" x2="668.08" y2="3804.55">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="3391.62" y1="3620.47" x2="3860.74" y2="3804.55">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="509.192" y1="437.207" x2="3770.65" y2="2285.4">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="733.087" y1="2722.91" x2="3546.76" y2="4317.35">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="objectBoundingBox" xlink:href="#id0" x1="79.2782%" y1="120.234%" x2="20.7214%" y2="0%">
+  </linearGradient>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="591.207" y1="476.317" x2="3688.64" y2="2246.29">
+  </linearGradient>
+  <linearGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="816.074" y1="2763.63" x2="3463.77" y2="4276.63">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M483 90l3314 0c216,0 393,177 393,393l0 1757c0,216 -177,393 -393,393l-3314 0c-216,0 -393,-177 -393,-393l0 -1757c0,-216 177,-393 393,-393z"/>
+  <path class="fil1" d="M483 0l3314 0c133,0 254,54 341,142 88,87 142,208 142,341l0 1757c0,133 -54,253 -142,341 -87,87 -208,142 -341,142l-3314 0c-133,0 -254,-55 -341,-142 -88,-88 -142,-208 -142,-341l0 -1757c0,-133 54,-254 142,-341 87,-88 208,-142 341,-142zm3314 180l-3314 0c-83,0 -159,34 -214,89 -55,55 -89,131 -89,214l0 1757c0,83 34,159 89,213 55,55 131,89 214,89l3314 0c83,0 159,-34 214,-89 55,-54 89,-130 89,-213l0 -1757c0,-83 -34,-159 -89,-214 -55,-55 -131,-89 -214,-89z"/>
+  <path class="fil2" d="M265 4086l3750 0c96,0 175,-79 175,-175l0 -782c0,-96 -79,-175 -175,-175l-3750 0c-96,0 -175,79 -175,175l0 782c0,96 79,175 175,175z"/>
+  <path class="fil3" d="M265 3996l3750 0c23,0 45,-10 60,-25l0 0c15,-15 25,-36 25,-60l0 -782c0,-23 -10,-44 -25,-60l0 0c-15,-15 -37,-25 -60,-25l-3750 0c-24,0 -45,10 -60,25l0 0c-15,16 -25,37 -25,60l0 782c0,24 10,45 25,60l0 0c15,15 36,25 60,25zm3750 180l-3750 0c-73,0 -139,-30 -187,-78l0 0 0 0c-48,-48 -78,-114 -78,-187l0 -782c0,-72 30,-139 78,-187l0 0 0 0c48,-48 114,-78 187,-78l3750 0c72,0 139,30 187,78l0 0 0 0c48,48 78,115 78,187l0 782c0,73 -30,139 -78,187l0 0 0 0c-48,48 -115,78 -187,78z"/>
+  <rect class="fil4" x="1080" y="3216" width="2856" height="266" rx="274" ry="41"/>
+  <rect class="fil5" x="321" y="3216" width="620" height="266" rx="59" ry="41"/>
+  <rect class="fil6" x="321" y="3579" width="2856" height="266" rx="274" ry="41"/>
+  <rect class="fil7" x="3316" y="3579" width="620" height="266" rx="59" ry="41"/>
+  <path class="fil8" d="M431 1443l0 -454c0,-39 9,-68 26,-87 18,-20 41,-30 69,-30 30,0 53,10 71,30 17,19 26,48 26,87l0 465c0,53 6,97 18,132 11,36 32,63 62,83 31,20 73,29 127,29 75,0 127,-20 159,-59 31,-40 46,-101 46,-181l0 -469c0,-39 9,-69 26,-88 17,-19 40,-29 69,-29 28,0 52,10 70,29 18,19 27,49 27,88l0 454c0,74 -8,136 -22,185 -15,50 -42,93 -82,131 -34,31 -74,55 -120,69 -45,15 -99,22 -160,22 -72,0 -135,-8 -187,-23 -53,-16 -96,-40 -129,-73 -33,-33 -57,-75 -73,-127 -15,-51 -23,-112 -23,-184z"/>
+  <path id="1" class="fil8" d="M1442 1733l0 -744c0,-39 8,-68 26,-87 18,-20 41,-30 69,-30 28,0 52,10 69,29 18,19 27,48 27,88l0 744c0,40 -9,69 -27,88 -17,19 -41,29 -69,29 -28,0 -51,-10 -68,-29 -18,-20 -27,-49 -27,-88z"/>
+  <path id="2" class="fil8" d="M2179 1443l0 -454c0,-39 9,-68 26,-87 17,-20 40,-30 69,-30 29,0 53,10 70,30 18,19 26,48 26,87l0 465c0,53 6,97 18,132 12,36 33,63 63,83 30,20 72,29 126,29 75,0 128,-20 159,-59 31,-40 47,-101 47,-181l0 -469c0,-39 8,-69 25,-88 18,-19 41,-29 70,-29 28,0 52,10 69,29 18,19 27,49 27,88l0 454c0,74 -7,136 -21,185 -15,50 -42,93 -82,131 -34,31 -74,55 -120,69 -46,15 -99,22 -160,22 -73,0 -135,-8 -188,-23 -52,-16 -95,-40 -128,-73 -33,-33 -57,-75 -73,-127 -15,-51 -23,-112 -23,-184z"/>
+  <path id="3" class="fil8" d="M3147 1650l211 -308 -178 -275c-17,-27 -29,-50 -38,-69 -8,-19 -12,-37 -12,-55 0,-18 8,-34 24,-49 16,-14 36,-22 59,-22 27,0 48,8 62,24 15,16 36,45 62,87l142 230 152 -230c12,-19 23,-35 32,-49 8,-14 17,-25 25,-34 8,-9 17,-16 27,-21 11,-4 22,-7 36,-7 24,0 43,8 59,22 15,15 23,32 23,51 0,29 -17,68 -50,118l-187 279 201 308c18,28 31,50 39,68 8,18 13,34 13,50 0,15 -4,29 -11,42 -8,12 -18,22 -31,29 -14,7 -29,11 -46,11 -18,0 -33,-4 -45,-11 -13,-8 -23,-17 -31,-28 -7,-11 -22,-33 -43,-65l-166 -262 -177 269c-14,22 -24,37 -29,46 -6,8 -13,17 -21,25 -9,8 -18,14 -29,19 -12,5 -25,7 -40,7 -23,0 -42,-7 -58,-21 -15,-14 -22,-35 -22,-62 0,-32 15,-71 47,-117z"/>
+ </g>
 </svg>
