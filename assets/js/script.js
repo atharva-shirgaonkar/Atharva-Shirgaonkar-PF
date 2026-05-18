@@ -5,6 +5,11 @@ const openContactButtons = document.querySelectorAll("[data-contact-open]");
 const closeContactButtons = document.querySelectorAll("[data-contact-close]");
 const activeSection = document.querySelector("[data-active-section]");
 const year = document.querySelector("[data-year]");
+const scrollSteps = document.querySelectorAll("[data-scroll-step]");
+const scrollScreen = document.querySelector("[data-scroll-screen]");
+const scrollKicker = document.querySelector("[data-scroll-kicker]");
+const scrollTitle = document.querySelector("[data-scroll-title]");
+const scrollCopy = document.querySelector("[data-scroll-copy]");
 
 const capabilities = {
   interfaces: {
@@ -66,6 +71,30 @@ function setCapability(key) {
   document.querySelector("[data-panel-c]").textContent = data.tags[2];
 }
 
+function setScrollState(step) {
+  if (!step) return;
+
+  scrollSteps.forEach((item) => {
+    item.classList.toggle("is-active", item === step);
+  });
+
+  if (scrollScreen) {
+    scrollScreen.dataset.state = step.dataset.state;
+  }
+
+  if (scrollKicker) {
+    scrollKicker.textContent = step.dataset.kicker;
+  }
+
+  if (scrollTitle) {
+    scrollTitle.textContent = step.dataset.title;
+  }
+
+  if (scrollCopy) {
+    scrollCopy.textContent = step.dataset.copy;
+  }
+}
+
 window.addEventListener("load", () => {
   window.setTimeout(hidePreloader, 650);
 });
@@ -111,3 +140,21 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".section-marker").forEach((section) => observer.observe(section));
+
+const scrollObserver = new IntersectionObserver(
+  (entries) => {
+    const visible = entries
+      .filter((entry) => entry.isIntersecting)
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+    if (visible) {
+      setScrollState(visible.target);
+    }
+  },
+  {
+    rootMargin: "-32% 0px -32% 0px",
+    threshold: [0.2, 0.42, 0.68],
+  },
+);
+
+scrollSteps.forEach((step) => scrollObserver.observe(step));

@@ -6,6 +6,9 @@
   <meta name="description" content="Atharva Shirgaonkar portfolio: data-driven web development, product engineering, dashboards, automation, and reliable digital systems.">
   <title>Atharva Shirgaonkar | Data Driven Web Portfolio</title>
   <link rel="preload" href="assets/images/signal-map.png" as="image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -24,7 +27,8 @@
 
     <nav class="header-nav" aria-label="Primary navigation">
       <a href="#vision">Vision</a>
-      <a href="#work">Proof</a>
+      <a href="#scroll-story">Flow</a>
+      <a href="#work">Work</a>
       <a href="#capabilities">Services</a>
     </nav>
 
@@ -63,6 +67,54 @@
         <div class="statement__copy">
           <p>I build websites and tools where the visual layer, technical logic, and user goal all point in the same direction.</p>
           <p>The result is a portfolio that feels premium like the reference site, but speaks in Atharva's own language: product thinking, clean execution, and measurable delivery.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scroll-story section-marker" id="scroll-story" data-section-label="Flow">
+      <div class="section-shell scroll-story__layout">
+        <aside class="scroll-story__visual" aria-live="polite">
+          <p class="eyebrow" data-scroll-kicker>01 / STRUCTURE</p>
+          <h2 data-scroll-title>Scroll turns the page into a living system.</h2>
+          <p data-scroll-copy>The layout responds as you move, shifting from structure to interface to launch readiness without breaking the calm black and white language.</p>
+          <div class="scroll-screen" data-scroll-screen data-state="structure" aria-hidden="true">
+            <div class="screen-grid"></div>
+            <div class="screen-frame screen-frame--primary"></div>
+            <div class="screen-frame screen-frame--secondary"></div>
+            <div class="screen-bars">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="screen-nodes">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="screen-label">LIVE SCROLL STATE</div>
+          </div>
+        </aside>
+
+        <div class="scroll-story__steps">
+          <article class="scroll-step is-active" data-scroll-step data-state="structure" data-kicker="01 / STRUCTURE" data-title="Scroll turns the page into a living system." data-copy="The layout responds as you move, shifting from structure to interface to launch readiness without breaking the calm black and white language.">
+            <span>01</span>
+            <h3>Structure</h3>
+            <p>First the page establishes a clear grid, strong hierarchy, and a precise visual rhythm.</p>
+          </article>
+
+          <article class="scroll-step" data-scroll-step data-state="interface" data-kicker="02 / INTERFACE" data-title="The interface adapts while the story stays focused." data-copy="As the next section enters view, the panel changes shape, labels update, and the composition becomes more product-led.">
+            <span>02</span>
+            <h3>Interface</h3>
+            <p>The visual system tightens into product cards, interaction states, and readable content blocks.</p>
+          </article>
+
+          <article class="scroll-step" data-scroll-step data-state="signal" data-kicker="03 / SIGNAL" data-title="Data becomes the movement, not decoration." data-copy="The scroll state shifts to signal mode: sharper contrast, moving points, and a dashboard-like read of progress.">
+            <span>03</span>
+            <h3>Signal</h3>
+            <p>Metrics and proof points become easier to scan, with a small red pulse reserved for priority.</p>
+          </article>
+
+          <article class="scroll-step" data-scroll-step data-state="launch" data-kicker="04 / LAUNCH" data-title="The final state points toward shipping." data-copy="The page resolves into a launch-ready pattern: clean deployment, simple contact flow, and a site that feels complete.">
+            <span>04</span>
+            <h3>Launch</h3>
+            <p>The final view brings the story into action: review, deploy, and improve.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -217,7 +269,7 @@
         <span></span><span></span>
       </button>
       <p class="eyebrow">Contact</p>
-      <h2 id="contact-title">Let’s build the next version.</h2>
+      <h2 id="contact-title">Let's build the next version.</h2>
       <p>Share the website, dashboard, automation, or portfolio idea you want to turn into a clean shipped product.</p>
       <div class="contact-grid">
         <a href="mailto:atharva@example.com">
