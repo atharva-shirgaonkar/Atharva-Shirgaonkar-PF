@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atharva Shirgaonkar portfolio: data-driven web development, product engineering, dashboards, automation, and reliable digital systems.">
-  <title>Atharva Shirgaonkar | Data Driven Web Portfolio</title>
-  <link rel="preload" href="assets/images/signal-map.png" as="image">
+  <meta name="description" content="Atharva Shirgaonkar is a Python-focused AI Systems Engineer building production-grade LLM systems, RAG pipelines, AI gateways, and scalable backend infrastructure.">
+  <title>Atharva Shirgaonkar | AI Systems Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,23 +12,21 @@
 </head>
 <body>
   <div class="preloader" aria-hidden="true">
-    <div class="preloader__mark">
-      <span></span><span></span><span></span><span></span><span></span>
-    </div>
-    <p>Loading data driven portfolio</p>
+    <div class="preloader__mark"><span></span><span></span><span></span></div>
+    <p>Loading AI systems portfolio</p>
   </div>
 
-  <header class="site-header" data-header>
+  <header class="site-header">
     <a class="brand" href="#home" aria-label="Atharva Shirgaonkar home">
       <span class="brand__mark">AS</span>
-      <span class="brand__text">Data Driven Web</span>
+      <span class="brand__text">AI Systems Engineer</span>
     </a>
 
     <nav class="header-nav" aria-label="Primary navigation">
-      <a href="#vision">Vision</a>
-      <a href="#scroll-story">Flow</a>
-      <a href="#work">Work</a>
-      <a href="#capabilities">Services</a>
+      <a href="#profile">Profile</a>
+      <a href="#systems">Systems</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
     </nav>
 
     <button class="contact-trigger" type="button" data-contact-open>
@@ -39,210 +36,172 @@
   </header>
 
   <main id="home">
-    <section class="hero section-marker" id="intro" data-section-label="Intro">
-      <img class="hero__image" src="assets/images/signal-map.png" alt="Abstract dashboard artwork with code, signal, automation, and analytics panels.">
-      <div class="hero__shade" aria-hidden="true"></div>
-      <div class="section-shell hero__content">
-        <p class="eyebrow">Atharva Shirgaonkar // Data driven development</p>
-        <h1>Quality websites built with code, data, and intent.</h1>
-        <p class="hero__lead">A D2C-inspired portfolio for building precise web products: fast frontends, clean systems, operational dashboards, and digital experiences that feel considered from first click to final handoff.</p>
-        <div class="hero__actions" aria-label="Hero actions">
-          <a class="button button--primary" href="#work">View proof</a>
-          <button class="button button--ghost" type="button" data-contact-open>Discuss a build</button>
+    <section class="hero section-marker" data-section-label="Intro">
+      <div class="section-shell hero__layout">
+        <div class="hero__content">
+          <p class="eyebrow">Pune, India / Python / LLM Infrastructure</p>
+          <h1>AI Systems Engineer building production-grade LLM backends.</h1>
+          <p class="hero__lead">I design practical AI infrastructure: RAG pipelines, semantic search, API gateways, async FastAPI services, authentication, caching, monitoring, and cost-aware deployment.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#projects">View systems</a>
+            <button class="button button--ghost" type="button" data-contact-open>Get in touch</button>
+          </div>
         </div>
-        <div class="hero__status" aria-label="Current portfolio status">
-          <span>Vercel ready</span>
-          <span>Static fast</span>
-          <span>2026 rebuild</span>
-        </div>
+
+        <aside class="hero-panel" aria-label="Core profile">
+          <div class="hero-panel__top">
+            <span>Current Focus</span>
+            <strong>Applied AI Systems</strong>
+          </div>
+          <dl class="signal-list">
+            <div>
+              <dt>Backend</dt>
+              <dd>FastAPI, REST APIs, JWT, async programming</dd>
+            </div>
+            <div>
+              <dt>AI</dt>
+              <dd>RAG, embeddings, semantic search, OpenAI API</dd>
+            </div>
+            <div>
+              <dt>Infra</dt>
+              <dd>PostgreSQL, pgvector, Redis, Docker, CI/CD</dd>
+            </div>
+          </dl>
+        </aside>
       </div>
     </section>
 
-    <section class="statement section-marker" id="vision" data-section-label="Vision">
-      <div class="section-shell statement__grid">
+    <section class="profile section-marker" id="profile" data-section-label="Profile">
+      <div class="section-shell profile__grid">
         <div>
-          <p class="eyebrow">Operating vision</p>
-          <h2>Every interface should turn complexity into confidence.</h2>
+          <p class="eyebrow">Profile Summary</p>
+          <h2>Not tutorial projects. Real systems thinking.</h2>
         </div>
-        <div class="statement__copy">
-          <p>I build websites and tools where the visual layer, technical logic, and user goal all point in the same direction.</p>
-          <p>The result is a portfolio that feels premium like the reference site, but speaks in Atharva's own language: product thinking, clean execution, and measurable delivery.</p>
+        <div class="profile__copy">
+          <p>Python-focused AI Systems Engineer with hands-on experience building scalable backend systems, RAG pipelines, AI-powered applications, and production-ready APIs using FastAPI, PostgreSQL, Docker, Redis, and LLM technologies.</p>
+          <p>Strong focus on async architectures, semantic search systems, vector databases, authentication, observability, performance, cost optimization, and real-world deployment.</p>
         </div>
       </div>
     </section>
 
-    <section class="scroll-story section-marker" id="scroll-story" data-section-label="Flow">
-      <div class="section-shell scroll-story__layout">
-        <aside class="scroll-story__visual" aria-live="polite">
-          <p class="eyebrow" data-scroll-kicker>01 / STRUCTURE</p>
-          <h2 data-scroll-title>Scroll turns the page into a living system.</h2>
-          <p data-scroll-copy>The layout responds as you move, shifting from structure to interface to launch readiness without breaking the calm black and white language.</p>
-          <div class="scroll-screen" data-scroll-screen data-state="structure" aria-hidden="true">
-            <div class="screen-grid"></div>
-            <div class="screen-frame screen-frame--primary"></div>
-            <div class="screen-frame screen-frame--secondary"></div>
-            <div class="screen-bars">
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <div class="screen-nodes">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <div class="screen-label">LIVE SCROLL STATE</div>
+    <section class="system-scroll section-marker" id="systems" data-section-label="Systems">
+      <div class="section-shell system-scroll__layout">
+        <aside class="system-panel" aria-live="polite">
+          <p class="eyebrow" data-system-kicker>01 / Gateway</p>
+          <h2 data-system-title>AI gateways that make model usage controlled and measurable.</h2>
+          <p data-system-copy>Authentication, rate limiting, caching, request tracing, and cost tracking around LLM APIs so teams can ship safely.</p>
+          <div class="system-visual" data-system-visual data-state="gateway" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
           </div>
         </aside>
 
-        <div class="scroll-story__steps">
-          <article class="scroll-step is-active" data-scroll-step data-state="structure" data-kicker="01 / STRUCTURE" data-title="Scroll turns the page into a living system." data-copy="The layout responds as you move, shifting from structure to interface to launch readiness without breaking the calm black and white language.">
+        <div class="system-steps">
+          <article class="system-step is-active" data-system-step data-state="gateway" data-kicker="01 / Gateway" data-title="AI gateways that make model usage controlled and measurable." data-copy="Authentication, rate limiting, caching, request tracing, and cost tracking around LLM APIs so teams can ship safely.">
             <span>01</span>
-            <h3>Structure</h3>
-            <p>First the page establishes a clear grid, strong hierarchy, and a precise visual rhythm.</p>
+            <h3>AI API Gateway</h3>
+            <p>Secure access, manage limits, reduce repeated calls, and understand cost per request.</p>
           </article>
 
-          <article class="scroll-step" data-scroll-step data-state="interface" data-kicker="02 / INTERFACE" data-title="The interface adapts while the story stays focused." data-copy="As the next section enters view, the panel changes shape, labels update, and the composition becomes more product-led.">
+          <article class="system-step" data-system-step data-state="retrieval" data-kicker="02 / Retrieval" data-title="RAG systems that turn documents into useful answers." data-copy="Embeddings, chunking, pgvector search, retrieval pipelines, and answer generation designed for practical document workflows.">
             <span>02</span>
-            <h3>Interface</h3>
-            <p>The visual system tightens into product cards, interaction states, and readable content blocks.</p>
+            <h3>RAG Pipelines</h3>
+            <p>Build document Q&A systems with semantic search, vector databases, and clean evaluation loops.</p>
           </article>
 
-          <article class="scroll-step" data-scroll-step data-state="signal" data-kicker="03 / SIGNAL" data-title="Data becomes the movement, not decoration." data-copy="The scroll state shifts to signal mode: sharper contrast, moving points, and a dashboard-like read of progress.">
+          <article class="system-step" data-system-step data-state="monitoring" data-kicker="03 / Monitoring" data-title="LLM monitoring that keeps latency, tokens, and costs visible." data-copy="Track usage, queue background work, monitor failures, and make production behavior understandable.">
             <span>03</span>
-            <h3>Signal</h3>
-            <p>Metrics and proof points become easier to scan, with a small red pulse reserved for priority.</p>
+            <h3>LLM Observability</h3>
+            <p>Measure token usage, latency, cost, reliability, and model behavior over time.</p>
           </article>
 
-          <article class="scroll-step" data-scroll-step data-state="launch" data-kicker="04 / LAUNCH" data-title="The final state points toward shipping." data-copy="The page resolves into a launch-ready pattern: clean deployment, simple contact flow, and a site that feels complete.">
+          <article class="system-step" data-system-step data-state="deployment" data-kicker="04 / Deployment" data-title="Backend foundations that are ready for real deployment." data-copy="Docker, Redis, PostgreSQL, async tasks, CI/CD, logging, and API structure that can grow beyond a demo.">
             <span>04</span>
-            <h3>Launch</h3>
-            <p>The final view brings the story into action: review, deploy, and improve.</p>
+            <h3>Production Backend</h3>
+            <p>Design API services with clean architecture, background tasks, and deployment-aware decisions.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="metrics section-marker" aria-label="Portfolio focus areas" data-section-label="Focus">
-      <div class="section-shell metrics__grid">
-        <article>
-          <span>01</span>
-          <h3>Web Experience</h3>
-          <p>Responsive pages, refined layouts, polished animations, and clear conversion paths.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>Product Systems</h3>
-          <p>Structured flows, reliable logic, integrations, and maintainable application foundations.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Data & Growth</h3>
-          <p>Dashboards, automation, analytics, and feedback loops that make improvement visible.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="work section-marker" id="work" data-section-label="Work">
+    <section class="skills section-marker" data-section-label="Skills">
       <div class="section-shell">
         <div class="section-heading">
-          <p class="eyebrow">Proof of work</p>
-          <h2>Project directions shaped around clarity, speed, and useful outcomes.</h2>
+          <p class="eyebrow">Technical Skills</p>
+          <h2>Tools I use to build AI systems.</h2>
         </div>
-
-        <div class="work-grid">
-          <article class="work-card">
-            <div class="work-card__media work-card__media--one" aria-hidden="true">
-              <span></span><span></span><span></span>
-            </div>
-            <p class="work-card__type">Insight Dashboard</p>
-            <h3>Performance Signal Console</h3>
-            <p>A decision interface for tracking KPIs, exceptions, growth metrics, and follow-up actions from one calm surface.</p>
-          </article>
-
-          <article class="work-card">
-            <div class="work-card__media work-card__media--two" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <p class="work-card__type">Portfolio System</p>
-            <h3>Personal Brand Engine</h3>
-            <p>A high-trust web presence with case-study sections, contact flow, fast loading, and a memorable visual system.</p>
-          </article>
-
-          <article class="work-card">
-            <div class="work-card__media work-card__media--three" aria-hidden="true">
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <p class="work-card__type">Workflow Automation</p>
-            <h3>Launch Readiness Hub</h3>
-            <p>A lightweight automation layer for project handoffs, checklists, notifications, and release readiness.</p>
-          </article>
+        <div class="skills-grid">
+          <article><span>Languages</span><p>Python, SQL, JavaScript, HTML5, CSS3</p></article>
+          <article><span>Backend & APIs</span><p>FastAPI, REST APIs, JWT, async programming, middleware</p></article>
+          <article><span>Databases</span><p>PostgreSQL, pgvector, Redis, SQLAlchemy, Alembic</p></article>
+          <article><span>AI / LLM</span><p>OpenAI API, RAG, embeddings, semantic search, LlamaIndex, RAGAS</p></article>
+          <article><span>Cloud & DevOps</span><p>Docker, Docker Compose, GitHub Actions, AWS S3, EC2, RDS</p></article>
+          <article><span>Systems</span><p>Celery, queues, caching, logging, monitoring, rate limiting, API gateways</p></article>
         </div>
       </div>
     </section>
 
-    <section class="capabilities section-marker" id="capabilities" data-section-label="Capabilities">
-      <div class="section-shell capabilities__layout">
-        <div class="section-heading capabilities__intro">
-          <p class="eyebrow">Services</p>
-          <h2>Data-driven development for modern web products.</h2>
-          <p>Each service is handled as a complete system: positioning, interface, implementation, measurement, and iteration working together.</p>
-        </div>
-
-        <div class="capability-list" role="list">
-          <button class="capability-row is-active" type="button" data-capability="interfaces">
-            <span>01</span>
-            <strong>Premium Websites</strong>
-          </button>
-          <button class="capability-row" type="button" data-capability="data">
-            <span>02</span>
-            <strong>Data Dashboards</strong>
-          </button>
-          <button class="capability-row" type="button" data-capability="platforms">
-            <span>03</span>
-            <strong>Web Apps</strong>
-          </button>
-          <button class="capability-row" type="button" data-capability="automation">
-            <span>04</span>
-            <strong>Automation</strong>
-          </button>
-        </div>
-
-        <aside class="capability-panel" aria-live="polite">
-          <p class="panel-kicker" data-panel-kicker>PREMIUM WEBSITES</p>
-          <h3 data-panel-title>Build a web presence that feels sharp, current, and credible.</h3>
-          <p data-panel-copy>High-impact landing sections, focused layouts, responsive behavior, accessibility checks, and interaction details that make the brand easier to trust.</p>
-          <div class="panel-metrics" aria-label="Capability signals">
-            <span data-panel-a>Visual system</span>
-            <span data-panel-b>Responsive UI</span>
-            <span data-panel-c>Contact flow</span>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="process section-marker" id="process" data-section-label="Process">
-      <div class="section-shell process__grid">
+    <section class="projects section-marker" id="projects" data-section-label="Projects">
+      <div class="section-shell">
         <div class="section-heading">
-          <p class="eyebrow">Method</p>
-          <h2>A measured way to move from idea to launched website.</h2>
+          <p class="eyebrow">Selected Systems</p>
+          <h2>AI projects built around backend reliability.</h2>
+        </div>
+        <div class="project-list">
+          <article>
+            <span>01</span>
+            <h3>QueryShield - AI API Gateway</h3>
+            <p>FastAPI-based AI gateway with JWT authentication, rate limiting, caching, and cost tracking.</p>
+            <small>FastAPI / PostgreSQL / Redis / Docker</small>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>DocMind - RAG Document System</h3>
+            <p>Document Q&A system using embeddings, pgvector, retrieval logic, and OpenAI APIs.</p>
+            <small>FastAPI / pgvector / Redis / Docker</small>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>HireSignal - AI Resume Analyzer</h3>
+            <p>AI-powered resume matching system with fit scoring and skill gap analysis.</p>
+            <small>FastAPI / OpenAI API / PostgreSQL</small>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>ObserveAI - LLM Monitoring Platform</h3>
+            <p>Monitoring system for LLM latency, token usage, API costs, and background processing.</p>
+            <small>FastAPI / PostgreSQL / Celery</small>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>CodeReviewBot - AI PR Review System</h3>
+            <p>Automated GitHub pull request review system using LLMs and async processing.</p>
+            <small>FastAPI / GitHub API / Redis / Docker</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section-marker" id="experience" data-section-label="Experience">
+      <div class="section-shell experience__grid">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Digital product and data science foundation.</h2>
         </div>
         <div class="timeline">
           <article>
-            <span>01</span>
-            <h3>Discover</h3>
-            <p>Clarify audience, goals, content, references, and the first version worth launching.</p>
+            <span>Nov 2025 - Present</span>
+            <h3>Digital Product Designer - RTM Healthcare Private Limited</h3>
+            <p>Worked on digital product workflows, user-facing platform assets, web content, digital systems, and client-focused technical implementation requirements.</p>
           </article>
           <article>
-            <span>02</span>
-            <h3>Design & Build</h3>
-            <p>Turn the direction into responsive code with clear structure, strong visuals, and usable states.</p>
+            <span>Jun 2024 - Aug 2024</span>
+            <h3>Data Scientist Intern - Celebal Technologies</h3>
+            <p>Developed a customer churn prediction model using Random Forest, data preprocessing, EDA, feature engineering, visualization, and evaluation metrics.</p>
           </article>
           <article>
-            <span>03</span>
-            <h3>Deploy</h3>
-            <p>Prepare the project for Vercel with production scripts, optimized assets, and a clean build.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Improve</h3>
-            <p>Use feedback to tighten copy, visuals, conversion paths, and future case-study sections.</p>
+            <span>Education</span>
+            <h3>MCA - Dr. D. Y. Patil Institute of Management & Research</h3>
+            <p>Master of Computer Applications, 7.5 CGPA. BCA from Chhatrapati Shivaji University, Kolhapur with 70.69%.</p>
           </article>
         </div>
       </div>
@@ -250,16 +209,16 @@
 
     <section class="final-cta section-marker" id="contact" data-section-label="Contact">
       <div class="section-shell final-cta__layout">
-        <p class="eyebrow">Available for web builds</p>
-        <h2>Need a website that feels premium and ships cleanly?</h2>
-        <button class="button button--primary" type="button" data-contact-open>Get in touch</button>
+        <p class="eyebrow">Open to AI backend and systems work</p>
+        <h2>Need someone to build practical AI infrastructure, not just a demo?</h2>
+        <button class="button button--primary" type="button" data-contact-open>Contact Atharva</button>
       </div>
     </section>
   </main>
 
   <aside class="bottom-hud" aria-label="Page status">
     <span data-active-section>Intro</span>
-    <span>Portfolio / <time data-year>2026</time></span>
+    <span>AI Systems / <time data-year>2026</time></span>
   </aside>
 
   <div class="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-title" hidden>
@@ -269,21 +228,13 @@
         <span></span><span></span>
       </button>
       <p class="eyebrow">Contact</p>
-      <h2 id="contact-title">Let's build the next version.</h2>
-      <p>Share the website, dashboard, automation, or portfolio idea you want to turn into a clean shipped product.</p>
+      <h2 id="contact-title">Let's build useful AI systems.</h2>
+      <p>Reach out for AI backend systems, RAG applications, API gateways, LLM monitoring, or production-ready FastAPI work.</p>
       <div class="contact-grid">
-        <a href="mailto:atharva@example.com">
-          <span>Email</span>
-          atharva@example.com
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-          <span>LinkedIn</span>
-          Connect on LinkedIn
-        </a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
-          <span>GitHub</span>
-          View repositories
-        </a>
+        <a href="mailto:atharvashirgaonkar1@gmail.com"><span>Email</span>atharvashirgaonkar1@gmail.com</a>
+        <a href="tel:+919834000091"><span>Phone</span>+91 9834000091</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span>View projects</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span>Connect professionally</a>
       </div>
     </div>
   </div>
