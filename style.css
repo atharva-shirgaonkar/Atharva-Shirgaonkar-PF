@@ -1,0 +1,9 @@
+/* Portfolio styles: colors are variables in :root, change them there */
+:root { --bg:#0b0e14; --panel:#121823; --blue:#2f6df6; --blue-l:#6ea0ff; --green:#39d98a; --text:#e6edf3; --mute:#8b97a8; }
+* { box-sizing: border-box; margin: 0; }
+body { background: var(--bg); color: var(--text); font-family: "Segoe UI", system-ui, sans-serif; line-height: 1.5; overflow-x: hidden; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+section { min-height: 100vh; padding: 8vw; display: grid; place-items: center; position: relative; }
+h2 { font-size: clamp(2.2rem, 6vw, 5rem); font-weight: 900; letter-spacing: -.04em; line-height: 1; }
+mark { background: none; color: var(--green); font-weight: 700; }
