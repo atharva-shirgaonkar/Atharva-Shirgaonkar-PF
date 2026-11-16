@@ -1,244 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atharva Shirgaonkar is a Python-focused AI Systems Engineer building production-grade LLM systems, RAG pipelines, AI gateways, and scalable backend infrastructure.">
-  <title>Atharva Shirgaonkar | AI Systems Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atharva Shirgaonkar | Python Backend Developer</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="preloader" aria-hidden="true">
-    <div class="preloader__mark"><span></span><span></span><span></span></div>
-    <p>Loading AI systems portfolio</p>
+<div id="grid"></div><div id="spot"></div><div id="bar"></div>
+<nav><b>AS.</b><div><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav>
+
+<section class="hero">
+  <div>
+    <h1>Atharva<br><span>Shirgaonkar</span></h1>
+    <p class="role"><b>Python backend developer</b> building secure APIs and LLM-powered systems.</p>
+    <div class="btns"><a class="cta" href="#work">View projects</a><a class="cta ghost" href="#contact">Hire me</a></div>
   </div>
-
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Atharva Shirgaonkar home">
-      <span class="brand__mark">AS</span>
-      <span class="brand__text">AI Systems Engineer</span>
-    </a>
-
-    <nav class="header-nav" aria-label="Primary navigation">
-      <a href="#profile">Profile</a>
-      <a href="#systems">Systems</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-    </nav>
-
-    <button class="contact-trigger" type="button" data-contact-open>
-      <span>Contact</span>
-      <span class="trigger-grid" aria-hidden="true"></span>
-    </button>
-  </header>
-
-  <main id="home">
-    <section class="hero section-marker" data-section-label="Intro">
-      <div class="section-shell hero__layout">
-        <div class="hero__content">
-          <p class="eyebrow">Pune, India / Python / LLM Infrastructure</p>
-          <h1>AI Systems Engineer building production-grade LLM backends.</h1>
-          <p class="hero__lead">I design practical AI infrastructure: RAG pipelines, semantic search, API gateways, async FastAPI services, authentication, caching, monitoring, and cost-aware deployment.</p>
-          <div class="hero__actions">
-            <a class="button button--primary" href="#projects">View systems</a>
-            <button class="button button--ghost" type="button" data-contact-open>Get in touch</button>
-          </div>
-        </div>
-
-        <aside class="hero-panel" aria-label="Core profile">
-          <div class="hero-panel__top">
-            <span>Current Focus</span>
-            <strong>Applied AI Systems</strong>
-          </div>
-          <dl class="signal-list">
-            <div>
-              <dt>Backend</dt>
-              <dd>FastAPI, REST APIs, JWT, async programming</dd>
-            </div>
-            <div>
-              <dt>AI</dt>
-              <dd>RAG, embeddings, semantic search, OpenAI API</dd>
-            </div>
-            <div>
-              <dt>Infra</dt>
-              <dd>PostgreSQL, pgvector, Redis, Docker, CI/CD</dd>
-            </div>
-          </dl>
-        </aside>
-      </div>
-    </section>
-
-    <section class="profile section-marker" id="profile" data-section-label="Profile">
-      <div class="section-shell profile__grid">
-        <div>
-          <p class="eyebrow">Profile Summary</p>
-          <h2>Not tutorial projects. Real systems thinking.</h2>
-        </div>
-        <div class="profile__copy">
-          <p>Python-focused AI Systems Engineer with hands-on experience building scalable backend systems, RAG pipelines, AI-powered applications, and production-ready APIs using FastAPI, PostgreSQL, Docker, Redis, and LLM technologies.</p>
-          <p>Strong focus on async architectures, semantic search systems, vector databases, authentication, observability, performance, cost optimization, and real-world deployment.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="system-scroll section-marker" id="systems" data-section-label="Systems">
-      <div class="section-shell system-scroll__layout">
-        <aside class="system-panel" aria-live="polite">
-          <p class="eyebrow" data-system-kicker>01 / Gateway</p>
-          <h2 data-system-title>AI gateways that make model usage controlled and measurable.</h2>
-          <p data-system-copy>Authentication, rate limiting, caching, request tracing, and cost tracking around LLM APIs so teams can ship safely.</p>
-          <div class="system-visual" data-system-visual data-state="gateway" aria-hidden="true">
-            <span></span><span></span><span></span><span></span>
-          </div>
-        </aside>
-
-        <div class="system-steps">
-          <article class="system-step is-active" data-system-step data-state="gateway" data-kicker="01 / Gateway" data-title="AI gateways that make model usage controlled and measurable." data-copy="Authentication, rate limiting, caching, request tracing, and cost tracking around LLM APIs so teams can ship safely.">
-            <span>01</span>
-            <h3>AI API Gateway</h3>
-            <p>Secure access, manage limits, reduce repeated calls, and understand cost per request.</p>
-          </article>
-
-          <article class="system-step" data-system-step data-state="retrieval" data-kicker="02 / Retrieval" data-title="RAG systems that turn documents into useful answers." data-copy="Embeddings, chunking, pgvector search, retrieval pipelines, and answer generation designed for practical document workflows.">
-            <span>02</span>
-            <h3>RAG Pipelines</h3>
-            <p>Build document Q&A systems with semantic search, vector databases, and clean evaluation loops.</p>
-          </article>
-
-          <article class="system-step" data-system-step data-state="monitoring" data-kicker="03 / Monitoring" data-title="LLM monitoring that keeps latency, tokens, and costs visible." data-copy="Track usage, queue background work, monitor failures, and make production behavior understandable.">
-            <span>03</span>
-            <h3>LLM Observability</h3>
-            <p>Measure token usage, latency, cost, reliability, and model behavior over time.</p>
-          </article>
-
-          <article class="system-step" data-system-step data-state="deployment" data-kicker="04 / Deployment" data-title="Backend foundations that are ready for real deployment." data-copy="Docker, Redis, PostgreSQL, async tasks, CI/CD, logging, and API structure that can grow beyond a demo.">
-            <span>04</span>
-            <h3>Production Backend</h3>
-            <p>Design API services with clean architecture, background tasks, and deployment-aware decisions.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="skills section-marker" data-section-label="Skills">
-      <div class="section-shell">
-        <div class="section-heading">
-          <p class="eyebrow">Technical Skills</p>
-          <h2>Tools I use to build AI systems.</h2>
-        </div>
-        <div class="skills-grid">
-          <article><span>Languages</span><p>Python, SQL, JavaScript, HTML5, CSS3</p></article>
-          <article><span>Backend & APIs</span><p>FastAPI, REST APIs, JWT, async programming, middleware</p></article>
-          <article><span>Databases</span><p>PostgreSQL, pgvector, Redis, SQLAlchemy, Alembic</p></article>
-          <article><span>AI / LLM</span><p>OpenAI API, RAG, embeddings, semantic search, LlamaIndex, RAGAS</p></article>
-          <article><span>Cloud & DevOps</span><p>Docker, Docker Compose, GitHub Actions, AWS S3, EC2, RDS</p></article>
-          <article><span>Systems</span><p>Celery, queues, caching, logging, monitoring, rate limiting, API gateways</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects section-marker" id="projects" data-section-label="Projects">
-      <div class="section-shell">
-        <div class="section-heading">
-          <p class="eyebrow">Selected Systems</p>
-          <h2>AI projects built around backend reliability.</h2>
-        </div>
-        <div class="project-list">
-          <article>
-            <span>01</span>
-            <h3>QueryShield - AI API Gateway</h3>
-            <p>FastAPI-based AI gateway with JWT authentication, rate limiting, caching, and cost tracking.</p>
-            <small>FastAPI / PostgreSQL / Redis / Docker</small>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>DocMind - RAG Document System</h3>
-            <p>Document Q&A system using embeddings, pgvector, retrieval logic, and OpenAI APIs.</p>
-            <small>FastAPI / pgvector / Redis / Docker</small>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>HireSignal - AI Resume Analyzer</h3>
-            <p>AI-powered resume matching system with fit scoring and skill gap analysis.</p>
-            <small>FastAPI / OpenAI API / PostgreSQL</small>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>ObserveAI - LLM Monitoring Platform</h3>
-            <p>Monitoring system for LLM latency, token usage, API costs, and background processing.</p>
-            <small>FastAPI / PostgreSQL / Celery</small>
-          </article>
-          <article>
-            <span>05</span>
-            <h3>CodeReviewBot - AI PR Review System</h3>
-            <p>Automated GitHub pull request review system using LLMs and async processing.</p>
-            <small>FastAPI / GitHub API / Redis / Docker</small>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="experience section-marker" id="experience" data-section-label="Experience">
-      <div class="section-shell experience__grid">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2>Digital product and data science foundation.</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <span>Nov 2025 - Present</span>
-            <h3>Digital Product Designer - RTM Healthcare Private Limited</h3>
-            <p>Worked on digital product workflows, user-facing platform assets, web content, digital systems, and client-focused technical implementation requirements.</p>
-          </article>
-          <article>
-            <span>Jun 2024 - Aug 2024</span>
-            <h3>Data Scientist Intern - Celebal Technologies</h3>
-            <p>Developed a customer churn prediction model using Random Forest, data preprocessing, EDA, feature engineering, visualization, and evaluation metrics.</p>
-          </article>
-          <article>
-            <span>Education</span>
-            <h3>MCA - Dr. D. Y. Patil Institute of Management & Research</h3>
-            <p>Master of Computer Applications, 7.5 CGPA. BCA from Chhatrapati Shivaji University, Kolhapur with 70.69%.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="final-cta section-marker" id="contact" data-section-label="Contact">
-      <div class="section-shell final-cta__layout">
-        <p class="eyebrow">Open to AI backend and systems work</p>
-        <h2>Need someone to build practical AI infrastructure, not just a demo?</h2>
-        <button class="button button--primary" type="button" data-contact-open>Contact Atharva</button>
-      </div>
-    </section>
-  </main>
-
-  <aside class="bottom-hud" aria-label="Page status">
-    <span data-active-section>Intro</span>
-    <span>AI Systems / <time data-year>2026</time></span>
-  </aside>
-
-  <div class="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-title" hidden>
-    <div class="contact-modal__backdrop" data-contact-close></div>
-    <div class="contact-modal__panel">
-      <button class="modal-close" type="button" data-contact-close aria-label="Close contact panel">
-        <span></span><span></span>
-      </button>
-      <p class="eyebrow">Contact</p>
-      <h2 id="contact-title">Let's build useful AI systems.</h2>
-      <p>Reach out for AI backend systems, RAG applications, API gateways, LLM monitoring, or production-ready FastAPI work.</p>
-      <div class="contact-grid">
-        <a href="mailto:atharvashirgaonkar1@gmail.com"><span>Email</span>atharvashirgaonkar1@gmail.com</a>
-        <a href="tel:+919834000091"><span>Phone</span>+91 9834000091</a>
-        <a href="https://github.com/atharva-shirgaonkar" target="_blank" rel="noreferrer"><span>GitHub</span>View projects</a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span>Connect professionally</a>
-      </div>
+  <div class="right">
+    <img class="photo" src="photo.jpg" alt="Portrait of Atharva Shirgaonkar">
+    <div class="code" aria-label="Profile summary as a JSON response">
+      <div class="bar"><i></i><i></i><i></i><span>profile.json</span></div>
+      <span class="l">{</span>
+      <span class="l">  <span class="k">"role"</span>: <span class="s">"Python Backend Developer"</span>,</span>
+      <span class="l">  <span class="k">"stack"</span>: [<span class="s">"FastAPI"</span>, <span class="s">"PostgreSQL"</span>, <span class="s">"Redis"</span>, <span class="s">"Docker"</span>],</span>
+      <span class="l">  <span class="k">"ai"</span>: [<span class="s">"RAG"</span>, <span class="s">"pgvector"</span>, <span class="s">"LLM gateways"</span>],</span>
+      <span class="l">  <span class="k">"education"</span>: <span class="s">"MCA, SPPU"</span>,</span>
+      <span class="l">  <span class="k">"location"</span>: <span class="s">"Pune, India"</span>,</span>
+      <span class="l">  <span class="k">"open_to_work"</span>: <span class="n">true</span></span>
+      <span class="l">}<span class="cur"></span></span>
     </div>
   </div>
+</section>
 
-  <script src="assets/js/script.js" defer></script>
+<div class="marquee" aria-hidden="true"><div class="mq">
+  <span>FastAPI</span><i>/</i><span>PostgreSQL</span><i>/</i><span>Redis</span><i>/</i><span>Docker</span><i>/</i><span>RAG</span><i>/</i><span>pgvector</span><i>/</i><span>Celery</span><i>/</i><span>JWT</span><i>/</i>
+  <span>FastAPI</span><i>/</i><span>PostgreSQL</span><i>/</i><span>Redis</span><i>/</i><span>Docker</span><i>/</i><span>RAG</span><i>/</i><span>pgvector</span><i>/</i><span>Celery</span><i>/</i><span>JWT</span><i>/</i>
+</div></div>
+
+<section class="pin">
+  <p id="words">I build backend systems that are secure, maintainable and cost-aware, with a focus on LLM and RAG engineering.</p>
+</section>
+
+<section class="hz" id="work">
+  <h2 class="hz-title">Selected <span>work</span></h2>
+  <div class="track">
+    <article class="card c1">
+      <h3>QueryShield</h3>
+      <p>An API gateway that sits in front of LLM providers.</p>
+      <ul>
+        <li><mark>JWT auth</mark> with per-user daily token budgets by tier</li>
+        <li><mark>Redis semantic caching</mark> to cut repeated LLM calls</li>
+        <li>A <mark>circuit breaker</mark> for upstream failures</li>
+        <li>Every call’s model, tokens, latency and cost logged to PostgreSQL</li>
+      </ul>
+      <div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span><span>Docker</span></div>
+      <a class="link" href="#" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+    <article class="card c2">
+      <span class="badge">In development</span>
+      <h3>DocMind</h3>
+      <p>A multi-tenant RAG engine: upload documents, ask questions, get <mark>answers with citations</mark> from your own files.</p>
+      <ul>
+        <li>Celery and Redis workers process documents in the background</li>
+        <li>OpenAI embeddings searched in PostgreSQL with <mark>pgvector</mark></li>
+      </ul>
+      <div class="tags"><span>FastAPI</span><span>pgvector</span><span>Celery</span><span>Alembic</span></div>
+      <a class="link" href="#" target="_blank" rel="noopener">View on GitHub</a>
+    </article>
+    <article class="card c3">
+      <h3>Internal business apps</h3>
+      <p>Built at RTM Healthcare for pharmaceutical operations.</p>
+      <ul>
+        <li>Inventory, employee management, sales tracking and reporting</li>
+        <li><mark>Automated manual workflows</mark> and integrated third-party APIs</li>
+        <li>Dashboards for cross-department teams</li>
+      </ul>
+      <div class="tags"><span>REST APIs</span><span>SQL</span><span>Automation</span></div>
+    </article>
+  </div>
+</section>
+
+<div class="marquee blue" aria-hidden="true"><div class="mq">
+  <span>Secure</span><i>/</i><span>Maintainable</span><i>/</i><span>Cost-aware</span><i>/</i><span>Async</span><i>/</i><span>Production-style</span><i>/</i>
+  <span>Secure</span><i>/</i><span>Maintainable</span><i>/</i><span>Cost-aware</span><i>/</i><span>Async</span><i>/</i><span>Production-style</span><i>/</i>
+</div></div>
+
+<section id="experience">
+  <div class="exp-wrap">
+    <h2 class="reveal">Experience</h2>
+    <div class="line"></div>
+    <div class="job now reveal">
+      <h3>Software Engineer, RTM Healthcare</h3>
+      <div class="meta">Nov 2025 to present, Pune</div>
+      <ul>
+        <li>Design and maintain internal applications that run pharmaceutical business operations.</li>
+        <li>Build REST APIs and automations that reduce manual work.</li>
+        <li>Own deployment, documentation and support.</li>
+      </ul>
+    </div>
+    <div class="job reveal">
+      <h3>Data Scientist Intern, Celebal Technologies</h3>
+      <div class="meta">Jun to Aug 2024, Remote</div>
+      <ul><li>Built a <mark>Random Forest churn model</mark>, evaluated with precision, recall and F1-score.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="skills">
+  <div class="sk-wrap">
+    <h2 class="reveal">Toolbox</h2>
+    <div class="grid reveal">
+      <div><h4>Backend</h4><div class="chips"><span>Python</span><span>FastAPI</span><span>REST</span><span>JWT</span><span>Async</span><span>Celery</span></div></div>
+      <div><h4>Data</h4><div class="chips"><span>PostgreSQL</span><span>pgvector</span><span>Redis</span><span>SQLAlchemy</span><span>Alembic</span></div></div>
+      <div><h4>AI</h4><div class="chips"><span>OpenAI API</span><span>Embeddings</span><span>RAG</span><span>Vector search</span></div></div>
+      <div><h4>DevOps</h4><div class="chips"><span>Docker</span><span>Compose</span><span>GitHub Actions</span><span>CI/CD</span></div></div>
+    </div>
+    <div class="edu reveal">
+      <p><b>MCA</b>, Dr. D. Y. Patil Institute of Management &amp; Research (SPPU), 2023 to 2025, CGPA 7.5</p>
+      <p><b>BCA</b>, Chhatrapati Shivaji University, Kolhapur, 2019 to 2023, 70.69%</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div>
+    <h2 class="reveal">Let’s build<br><span>something.</span></h2>
+    <div class="row reveal">
+      <a href="mailto:atharvashirgaonkar1@gmail.com">atharvashirgaonkar1@gmail.com</a>
+      <a href="tel:+919834000091">+91 9834000091</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
